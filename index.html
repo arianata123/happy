@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Selamat Ulang Tahun</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f8e8ff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #d63384;
+            font-size: 3rem;
+        }
+        #message {
+            font-size: 1.5rem;
+            color: #6a0572;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #d63384;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #b0236b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎉 Selamat Ulang Tahun Helga Liora! 🎉</h1>
+        <p>Klik tombol di bawah untuk melihat pesan spesial.</p>
+        <button class="btn" onclick="showMessage()">Tampilkan Pesan</button>
+        <p id="message">Semoga hari ini penuh kebahagiaan dan keberkahan! 🎂🎁
+            Semoga apa yang dicita-citakan tercapai
+        </p>
+        
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.opacity = 1;
+        }
+    </script>
+
+</body>
+</html>
